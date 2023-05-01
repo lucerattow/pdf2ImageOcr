@@ -5,12 +5,12 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <ImplicitUsings>disable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="itext7" Version="7.2.5" />
-    <PackageReference Include="Spire.PDF" Version="9.4.0" />
+    <PackageReference Include="FreeSpire.PDF" Version="8.6.0" />
+    <PackageReference Include="itext7.pdf2data" Version="4.1.0" />
     <PackageReference Include="Tesseract" Version="5.2.0" />
   </ItemGroup>
 

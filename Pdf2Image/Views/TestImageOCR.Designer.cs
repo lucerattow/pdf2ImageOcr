@@ -1,4 +1,7 @@
-﻿namespace Pdf2Image.Views
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace Pdf2Image.Views
 {
     partial class TestImageOCR
     {

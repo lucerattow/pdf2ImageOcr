@@ -1,14 +1,6 @@
 ﻿using MoneyAdministrator.Common.DTOs;
-using Pdf2Image.Import;
+using Pdf2Image.ImportItext;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Configuration;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Pdf2Image.Views
@@ -40,8 +32,11 @@ namespace Pdf2Image.Views
                 {
                     using (new CursorWait())
                     {
-                        var importSummaryPdf = new ImportSummaryPdf(_tsbCbBank.Text, _tsbCbBrand.Text);
-                        LoadData(importSummaryPdf.GetCreditCardSummary(openFileDialog.FileName));
+                        var import = new ImportItext.Import(_tsbCbBank.Text, _tsbCbBrand.Text);
+                        var a = import.ExtractDataFromPDF(openFileDialog.FileName);
+                        return;
+                        //var importSummaryPdf = new ImportSummaryPdf(_tsbCbBank.Text, _tsbCbBrand.Text);
+                        //LoadData(importSummaryPdf.GetCreditCardSummary(openFileDialog.FileName));
                     }
                 }
                 catch (Exception ex)

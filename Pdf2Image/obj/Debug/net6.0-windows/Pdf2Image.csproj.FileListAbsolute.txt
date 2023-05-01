@@ -47,3 +47,11 @@ E:\.Mega\Desarrollo\Repositorios\C#\.Windows Forms\Pdf2Image\Pdf2Image\obj\Debug
 E:\.Mega\Desarrollo\Repositorios\C#\.Windows Forms\Pdf2Image\Pdf2Image\obj\Debug\net6.0-windows\Pdf2Image.Views.ImportPdf.resources
 E:\.Mega\Desarrollo\Repositorios\C#\.Windows Forms\Pdf2Image\Pdf2Image\obj\Debug\net6.0-windows\Pdf2Image.Views.TestImageOCR.resources
 E:\.Mega\Desarrollo\Repositorios\C#\.Windows Forms\Pdf2Image\Pdf2Image\obj\Debug\net6.0-windows\Pdf2Image.Views.ShowImage.resources
+E:\.Mega\Desarrollo\Repositorios\C#\.Windows Forms\Pdf2Image\Pdf2Image\bin\Debug\net6.0-windows\x64\pdfium.dll
+E:\.Mega\Desarrollo\Repositorios\C#\.Windows Forms\Pdf2Image\Pdf2Image\bin\Debug\net6.0-windows\x86\pdfium.dll
+E:\.Mega\Desarrollo\Repositorios\C#\.Windows Forms\Pdf2Image\Pdf2Image\bin\Debug\net6.0-windows\itext.licensing.base.dll
+E:\.Mega\Desarrollo\Repositorios\C#\.Windows Forms\Pdf2Image\Pdf2Image\bin\Debug\net6.0-windows\itext.font_asian.dll
+E:\.Mega\Desarrollo\Repositorios\C#\.Windows Forms\Pdf2Image\Pdf2Image\bin\Debug\net6.0-windows\PdfiumViewer.dll
+E:\.Mega\Desarrollo\Repositorios\C#\.Windows Forms\Pdf2Image\Pdf2Image\bin\Debug\net6.0-windows\zxing.dll
+E:\.Mega\Desarrollo\Repositorios\C#\.Windows Forms\Pdf2Image\Pdf2Image\bin\Debug\net6.0-windows\nl\PdfiumViewer.resources.dll
+E:\.Mega\Desarrollo\Repositorios\C#\.Windows Forms\Pdf2Image\Pdf2Image\obj\Debug\net6.0-windows\Pdf2Image.Views.DataGridViewTests.resources

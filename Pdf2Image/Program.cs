@@ -1,3 +1,6 @@
+using System;
+using System.Windows.Forms;
+
 namespace Pdf2Image
 {
     internal static class Program
@@ -11,7 +14,7 @@ namespace Pdf2Image
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Views.ImportPdf());
+            Application.Run(new Views.DataGridViewTests());
         }
     }
 }

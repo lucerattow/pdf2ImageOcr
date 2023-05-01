@@ -1,4 +1,9 @@
+using System;
+using System.Drawing;
 using System.Drawing.Imaging;
+using System.IO;
+using System.Windows.Forms;
+using Pdf2Image.OtherTries;
 using Spire.Pdf;
 using Spire.Pdf.Graphics;
 

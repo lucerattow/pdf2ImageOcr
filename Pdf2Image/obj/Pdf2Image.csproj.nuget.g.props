@@ -12,4 +12,10 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\lucas\.nuget\packages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)itext7.pdf2data\4.1.0\Build\itext7.pdf2data.props" Condition="Exists('$(NuGetPackageRoot)itext7.pdf2data\4.1.0\Build\itext7.pdf2data.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgPdfiumViewer Condition=" '$(PkgPdfiumViewer)' == '' ">C:\Users\lucas\.nuget\packages\pdfiumviewer\2.13.0</PkgPdfiumViewer>
+  </PropertyGroup>
 </Project>
